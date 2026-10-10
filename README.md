@@ -2,7 +2,7 @@
 
 A one-minute retro platformer. Guide the gecko through five zones (AI, Kubernetes, MultiCloud, Virtualization and Linux) and reach the gate to NVIDIA GTC Berlin.
 
-**Play:** open `index.html` in any browser, or visit the GitHub Pages URL of this repository.
+**Play:** https://cyrilcuvier.github.io/geekogame/
 
 ## Controls
 
