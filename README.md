@@ -1,24 +1,33 @@
-# Gecko Quest: Road to GTC Berlin
+# Gecko Quest: Halloween Edition 🎃
 
-A one-minute retro platformer. Guide the gecko through five zones (AI, Kubernetes, MultiCloud, Virtualization and Linux) and reach the gate to NVIDIA GTC Berlin.
+A tiny retro platformer. Guide the gecko (witch hat included) through five haunted worlds of modern infrastructure and reach the haunted datacenter before midnight.
 
-**Play:** https://cyrilcuvier.github.io/geekogame/
+**▶ Play in your browser:** https://cyrilcuvier.github.io/geekogame/
 
-## Controls
+## The worlds
 
-- Keyboard: ← → to move, Space or ↑ to jump, M to mute
-- Phone: on-screen ◀ ▶ and A buttons
+1. **Haunted AI**: hallucinations roam free. Stomp them.
+2. **Zombie Pods**: stomped pods come back. CrashLoopBackOff.
+3. **Storm Clouds**: egress bats dive at you and drain your score.
+4. **VM Crypt**: ride the zombie VMs over the pits.
+5. **Linux Graveyard**: segfault spiders on the ground and on threads.
 
-## Zones
+Then the final stretch: **Midnight**.
 
-| Zone | Mechanic | Watch out for |
-|---|---|---|
-| AI | Collect GPUs | Hallucinations |
-| Kubernetes | Pods scale in and out | CrashLoop bugs |
-| MultiCloud | Moving clouds | Egress fees |
-| Virtualization | VMs live-migrate | Noisy neighbors |
-| Linux | Terminal blocks | Segfaults and `rm -rf` spikes |
+## How to play
 
-Single self-contained HTML file: canvas rendering, procedural pixel art, WebAudio chiptune. No dependencies, no tracking.
+- `←` `→` to move, `Space` or `↑` to jump (hold for a higher jump), `M` to mute
+- On a phone, use the on-screen buttons
+- You have 3 hearts. An enemy costs a heart, a pit or spikes cost a life
+- Tombstones with a green flame are checkpoints
+- Rotten planks collapse under your feet. Ghostly coffins phase in and out
+- Green potions give a heart back
+- Land on enemies to stomp them (hold jump to bounce higher)
 
-A mini game by Cyril Cuvier.
+Your rank depends on your time, plus 5 seconds per lost soul. Four ranks, from **LOST IN /DEV/NULL** up to **ROOT OF ALL EVIL**.
+
+## Under the hood
+
+One HTML file, no dependencies, no tracking. Canvas 2D, chiptune generated live with WebAudio, original pixel art and music. Your best score stays in your browser.
+
+Made by Cyril Cuvier.
